@@ -3,14 +3,14 @@ const sass = require("gulp-sass")(require("sass"));
 const prefix = require("gulp-autoprefixer");
 
 const buildStyle = () => {
-  return src(["****path****"])
+  return src(["sass/**/*.sass"])
     .pipe(sass({outputStyle: "compressed"}))
     .pipe(prefix("last 2 versions"))
-    .pipe(dest("****destination path****"));
+    .pipe(dest("dist/"));
 }
 
-const watch = () => {
-  return watch("****path****", buildStyle);
+const watchTasks = () => {
+  return watch("sass/**/*.sass", buildStyle);
 }
 
-exports.default = series(buildStyle, watch);
+exports.default = series(buildStyle, watchTasks);
