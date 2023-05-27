@@ -1,9 +1,7 @@
-# Usage
+# Live preview
 
-Run `npm install` to install all the packages needed to run the project.
+[go live](https://khaledalhayek.github.io/restaurent_website/)
 
-## Compile sass
+## Project Screenshot
 
-Run `gulp` in the terminal opened with the path of the folder.
-
-### Happy coding ✌
+![website screenshot](/assets/screenshot.png)
