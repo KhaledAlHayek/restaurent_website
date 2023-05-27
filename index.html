@@ -4,12 +4,207 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dhabi Restaurant</title>
   <link rel="stylesheet" href="dist/main.css">
+  <link rel="icon" href="assets/logo.png">
 </head>
 <body>
 
-  <h1>Welcome</h1>
+<header class="header-bg">
+  <div class="header container">
+    <nav class="header__nav">
+      <div class="header__logo-box">
+        <img src="assets/logo.png" class="header__logo" alt="logo">
+        <p class="header__logo-text">Dhabi Restaurant</p>
+      </div>
+      <div class="header__links">
+        <a href="#" class="header__link">Product</a>
+        <a href="#" class="header__link">Receipe</a>
+        <a href="#" class="header__link">About</a>
+      </div>
+      <div class="header__contact">
+        <a href="#" class="btn btn--sm">Special Offer</a>
+        <div class="header__call">
+          <img src="assets/icons/call.png" class="header__call-icon" alt="call us">
+          <p class="header__number">+923351263561</p>
+        </div>
+      </div>
+      <div class="header__user">
+        <div class="header__icon-box"> 
+          <img src="assets/icons/user.png" alt="user icon" class="header__user-icon"> 
+        </div>
+        <div class="header__icon-box"> 
+          <img src="assets/icons/buy.png" alt="user icon" class="header__user-icon"> 
+        </div>
+      </div>
+      <div class="header__menu-icon">
+        <svg>
+          <use xlink:href="assets/icons/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </nav>
+    <div class="header__content">
+      <h1 class="header__heading heading-1">All Delicious <span>Asian</span></h1>
+      <p class="header__text">Eggs, Salad, Fruits, & Pasta</p>
+      <a href="" class="btn header__cta">Find for more</a>
+    </div>
+  </div>
+  <div class="header__social">
+    <img src="assets/facebook.png" alt="Facebook icon" class="header__social-img">
+    <img src="assets/twitter.png" alt="Twitter icon" class="header__social-img">
+    <img src="assets/instagram.png" alt="Instagram icon" class="header__social-img">
+  </div>
+</header>
 
+<section class="special">
+  <div class="container">
+    <div class="special__intro">
+      <h3 class="heading-3 special__intro-heading">Our Delicious and Special Salad <span>Asian</span></h3>
+      <p class="body">Food is any substance consumed by an organism for nutritional support.</p>
+    </div>
+    <div class="special__cards">
+      <div class="card">
+        <div class="card__img-box"><img src="assets/special-1.png" alt="salad img" class="card__img"></div>
+        <div class="card__body">
+          <div class="card__title body lead">Special Salad</div>
+          <p class="card__text body">Food is any substance consumed by an organism for nutritional support.</p>
+        </div>
+        <div class="card__price">$12</div>
+      </div>
+      <div class="card">
+        <div class="card__img-box"><img src="assets/special-2.png" alt="salad img" class="card__img"></div>
+        <div class="card__body">
+          <div class="card__title body lead">Russian Salad</div>
+          <p class="card__text body">Food is any substance consumed by an organism for nutritional support.</p>
+        </div>
+        <div class="card__price">$12</div>
+      </div>
+      <div class="card">
+        <div class="card__img-box"><img src="assets/special-3.png" alt="salad img" class="card__img"></div>
+        <div class="card__body">
+          <div class="card__title body lead">Asian Salad</div>
+          <p class="card__text body">Food is any substance consumed by an organism for nutritional support.</p>
+        </div>
+        <div class="card__price">$12</div>
+      </div>
+      <div class="card">
+        <div class="card__img-box"><img src="assets/special-4.png" alt="salad img" class="card__img"></div>
+        <div class="card__body">
+          <div class="card__title body lead">American Salad</div>
+          <p class="card__text body">Food is any substance consumed by an organism for nutritional support.</p>
+        </div>
+        <div class="card__price">$12</div>
+      </div>
+    </div>
+    <div class="special__welcome">
+      <div class="special__img">
+        <img src="assets/welcome.png" alt="welcome image">
+      </div>
+      <div class="special__content">
+        <h2 class="heading-2 special__content-heading">Welcome to our <span>Dhabi</span> Restaurant</h2>
+        <p class="body shrink-text">food, substance consisting essentially of protein, carbohydrate, fat, and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy. The absorption and utilization of food by the body is fundamental to nutrition and is facilitated by digestion</p>
+        <a href="#" class="btn special__cta">Find more</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="expert">
+  <div class="container">
+    <div class="expert__welcome">
+      <div class="expert__content">
+        <h2 class="heading-2 expert__content-heading">Our <span>Dhabi</span> Restaurant Expert Chef</h2>
+        <p class="body shrink-text">food, substance consisting essentially of protein, carbohydrate, fat, and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy. The absorption and utilization of food by the body is fundamental to nutrition and is facilitated by digestion</p>
+        <a href="#" class="btn expert__cta">Find more</a>
+      </div>
+      <div class="expert__img">
+        <img src="assets/chef-1.png" alt="our chef">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="customers">
+  <div class="container">
+    <div class="customers__intro">
+      <h2 class="heading-2 customers__intro-heading">Our <span>Dhabi</span> Restaurant Happy Customers</h2>
+      <p class="body">Food is any substance consumed by an organism for nutritional support.</p>
+    </div>
+    <div class="customers__wrapper">
+      <div class="customers__box">
+        <div class="customers__box-img-box">
+          <img src="assets/customer-1.png" class="customers__box-img" alt="customer">
+        </div>
+        <div class="customers__stars">
+          <img src="assets/icons/star.png" alt="star">
+          <img src="assets/icons/star.png" alt="star">
+          <img src="assets/icons/star.png" alt="star">
+          <img src="assets/icons/star.png" alt="star">
+          <img src="assets/icons/star.png" alt="star">
+        </div>
+        <p class="customers__text body">A customer is a person or business that buys goods or services from another business. Customers are crucial because they generate revenue. Without them, businesses would go out of business.</p>
+        <h2 class="heading-2 customers__name">Khaled Hayek</h2>
+      </div>
+      <div class="customers__box">
+        <div class="customers__box-img-box">
+          <img src="assets/customer-2.png" class="customers__box-img" alt="customer">
+        </div>
+        <div class="customers__stars">
+          <img src="assets/icons/star.png" alt="star">
+          <img src="assets/icons/star.png" alt="star">
+          <img src="assets/icons/star.png" alt="star">
+          <img src="assets/icons/star.png" alt="star">
+          <img src="assets/icons/star.png" alt="star">
+        </div>
+        <p class="customers__text body">A customer is a person or business that buys goods or services from another business. Customers are crucial because they generate revenue. Without them, businesses would go out of business.</p>
+        <h2 class="heading-2 customers__name">Khaled Hayek</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+
+      <div class="footer__box footer__logo-box">
+        <img src="assets/logo.png" alt="logo" class="footer__logo-img">
+        <p class="body lead footer__title">Dhabi Restaurant</p>
+        <p class="text footer__text">Managing restaurant menus and other information including location and opening hours. Managing the preparation of orders at a restaurant kitchen.</p>
+      </div>
+      <div class="footer__box">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link footer__menu-header">Navigation</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Menu</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Products</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Dish</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Asian</a></li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link footer__menu-header">Genres</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Salad</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Spicy</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Bowl Us</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Kitchen</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link footer__menu-header">Follow Us</a></li>
+          <li class="footer__item"><img src="assets/facebook.png" alt="facebook" class="footer__social"></li>
+          <li class="footer__item"><img src="assets/twitter.png" alt="twitter" class="footer__social"></li>
+          <li class="footer__item"><img src="assets/instagram.png" alt="instagram" class="footer__social"></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+  <script src="dist/main.js"></script>
 </body>
 </html>

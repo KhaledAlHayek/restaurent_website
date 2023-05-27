@@ -1,0 +1,30 @@
+.btn
+  &,
+  &:link,
+  &:visited
+    font-size: 1.8rem
+    font-weight: 600
+    font-family: $ff-primary
+    background-color: $color-primary
+    display: inline-block
+    border-radius: 50px
+    padding: 1rem 2.8rem
+    line-height: 1.2
+    cursor: pointer
+    box-shadow: 0 0 0 6px rgba($color-primary, .3)
+    transition: all 200ms
+    &:hover
+      background-color: darken($color-primary, 10)
+    &:active
+      box-shadow: 0 0 0 4px $color-white, 0 0 0 12px rgba($color-primary, .4)
+  &--sm
+    &,
+    &:link,
+    &:visited
+      font-size: 1.6rem
+      font-weight: 700
+      border-radius: 10px
+      box-shadow: 0 0 0 3px rgba($color-primary, .3)
+      &:active
+        box-shadow: 0 0 0 2px $color-white, 0 0 0 6px rgba($color-primary, .4)
+  

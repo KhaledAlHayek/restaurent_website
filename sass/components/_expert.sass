@@ -1,0 +1,25 @@
+.expert
+  background-image: url(../assets/chef-art.png), url(../assets/chef-art-2.png)
+  background-size: 20%, 10%
+  background-position: top left, 90% 80%
+  background-repeat: no-repeat
+  &__welcome
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    align-items: center
+    @include bp-custom(43.75em)
+      grid-template-columns: 1fr
+      gap: 5rem
+  &__img
+    width: 60%
+    display: block
+    margin: 0 auto
+    @include bp-custom(43.75em)
+      order: -1
+  &__content
+    text-align: center
+    display: flex
+    flex-direction: column
+    gap: 3rem
+  &__cta
+    align-self: center

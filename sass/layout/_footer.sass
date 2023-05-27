@@ -1,0 +1,42 @@
+.footer
+  &__wrapper
+    width: 90%
+    margin: 0 auto
+    display: flex
+    align-items: center
+    @include respond-sm
+      flex-wrap: wrap
+      justify-content: center
+      gap: 5rem
+  &__box
+    text-align: center
+    flex: 0 1 20%
+    @include bp-custom(18.75em)
+      flex: 0 1 100%
+  &__logo-box
+    flex: 0 1 40%
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    gap: 2rem
+    justify-content: center
+    @include respond-sm
+      flex: 0 1 100%
+  &__logo-img
+    width: 4rem
+  &__title
+    text-align: left
+  &__text
+    flex: 0 1 100%
+    max-width: 70%
+  &__item
+  &__link
+    font-size: 1.2rem
+    display: inline-block
+    color: $color-secondary-500
+  &__menu-header
+    font-weight: 700
+    color: $color-secondary
+    margin-bottom: 1.5rem
+  &__social
+    width: 2rem

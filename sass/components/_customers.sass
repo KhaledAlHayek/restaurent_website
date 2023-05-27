@@ -1,0 +1,40 @@
+.customers
+  text-align: center
+  background-image: url(../assets/customers-art.png)
+  background-size: 30%
+  background-position: left center
+  background-repeat: no-repeat
+  &__intro
+    margin-bottom: 10rem
+    &-heading
+      margin-bottom: 1.5rem
+  &__wrapper
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(min(50rem, 100%), 1fr))
+    gap: 8rem 5rem
+  &__box
+    padding: 10rem 2rem 2rem
+    background-color: #Fff
+    box-shadow: .1rem .2rem .4rem rgba(0 0 0 / .1) 
+    border-radius: 0 50px
+    position: relative
+    &-img-box
+      position: absolute
+      left: 50%
+      transform: translateX(-50%)
+      top: -5rem
+      border: 18px solid #fff
+      border-radius: 50%
+    &-img
+      width: 10rem
+      height: 10rem
+  &__stars
+    display: flex
+    justify-content: center
+  &__text
+    margin: 3rem auto 2rem
+    max-width: 80%
+    @include bp-custom(43.75em)
+      max-width: 70%
+  &__name
+    font-size: 2rem

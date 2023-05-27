@@ -1,0 +1,37 @@
+.special
+  background-image: url(../assets/art.png), url(../assets/art.png)
+  background-size: 20%
+  background-position: 0 0 , 50% 70%
+  background-repeat: no-repeat
+  &__intro
+    text-align: center
+    margin-bottom: 5rem
+    &-heading
+      margin-bottom: 1.5rem
+      > span
+        display: block
+        color: $color-primary
+  &__cards
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr))
+    gap: 2rem
+    @include respond-lg
+      gap: 4rem
+  &__welcome
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    align-items: center
+    @include bp-custom(43.75em)
+      grid-template-columns: 1fr
+  &__img
+    @include bp-custom(43.75em)
+      display: none
+  &__content
+    text-align: center
+    display: flex
+    flex-direction: column
+    gap: 3rem
+    @include bp-custom(43.75em)
+      margin-top: 5rem
+  &__cta
+    align-self: center

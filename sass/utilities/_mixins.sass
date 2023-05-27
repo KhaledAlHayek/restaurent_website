@@ -1,0 +1,17 @@
+$sm: 37.5em // 600px
+$md: 56.25em // 900px
+$lg: 62.5em // 1000px
+
+@mixin respond-sm
+  @media (max-width: $sm)
+    @content
+@mixin respond-md
+  @media (max-width: $md)
+    @content
+@mixin respond-lg
+  @media (max-width: $lg)
+    @content
+
+@mixin bp-custom($bp)
+  @media (max-width: $bp)
+    @content
